@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,700;1,400;1,600&family=Montserrat:wght@400;700&family=Nunito:ital,wght@0,300;0,600;0,700;0,800;1,400&display=swap');
 
 :root {
-    --primary-color:#14b8a6;
+    --primary-color: #14b8a6;
     --dark-grey: #4b5563;
-    --light-grey: #e5e7eb;
+    --light-grey: #f3f4f6;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 1rem auto 1rem;
-    max-width: 90%;
-    width: 100%;
+    margin: 0px;
 }
 
 hr {
@@ -22,9 +20,9 @@ hr {
 }
 
 .container-center {
-    max-width: 750px;
     margin: auto;
-    width: 100%;
+    padding: 0rem 1rem;
+    max-width: 600px;
 }
 
 .link {
@@ -34,21 +32,21 @@ hr {
 }
 
 .link-primary {
-    max-width: 140px;
-    padding: 0.6rem 1.2rem;
+    min-width: 140px;
+    width: max-content;
     background-color: var(--primary-color);
     color: white;
     margin: 1rem auto;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 }
 
 .link-secondary {
-    max-width: 140px;
+    min-width: 140px;
+    width: max-content;
     margin: 2rem auto;
-    padding: 0.6rem 1.2rem;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 }
 
 .list-non-bullet {
@@ -58,23 +56,24 @@ hr {
 
 .list-item-inline {
     display: inline;
-    padding: 0rem 0.5rem; 
+    padding: 0rem 0.5rem;
 }
 
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 2rem;
+    padding: 1rem 0rem;
     border-bottom-left-radius: 1rem;
 }
 
-.navigation .nav-brand{
+.navigation .nav-brand {
     font-weight: bold;
+    font-size: larger;
 }
 
 .nav-brand a {
     text-decoration: none;
-    color: inherit;
+    color: white;
 }
 
 .navigation .nav-pills {
@@ -91,12 +90,12 @@ hr {
 }
 
 .header {
-    padding: 2rem;
-    padding-top: 5rem;
+    display: block;
+    padding-top: 3rem;
 }
 
 .header .header-img {
-    max-width: 400px;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
@@ -113,8 +112,6 @@ hr {
 
 .section {
     padding: 2rem;
-    margin: 2rem 0rem;
-    border-radius: 1rem;
     text-align: center;
 }
 
@@ -129,14 +126,14 @@ hr {
 .footer {
     background-color: var(--primary-color);
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
     color: white;
     border-top-right-radius: 1rem;
 }
 
 .footer .footer-header {
     font-weight: bold;
-    font-size: large;
+    font-size: larger;
 }
 
 .footer .link {
@@ -176,20 +173,19 @@ hr {
 
 @media (max-width: 900px) {
     body {
-      max-width: 95%;
-      width: 100%;
+        width: 100%;
     }
-  
+
     .list-item-inline {
-      display: inline;
-      padding: 0rem;
+        display: inline;
+        padding: 0rem;
     }
-  
+
     .container-center {
-      width: auto;
+        width: auto;
     }
-  
-    .link-primary {
-      display: block;
-    }
+
+    /* .link-primary {
+        display: block;
+    } */
 }
