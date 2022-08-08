@@ -23,7 +23,6 @@ hr {
 
 .container-center {
     margin: auto;
-    padding: 0rem 1rem;
     max-width: 600px;
 }
 
@@ -136,10 +135,9 @@ hr {
 
 .section {
     padding: 2rem;
-    margin: 2rem 0;
 }
 
-.section h2 {
+.section h1 {
     text-align: center;
 }
 
