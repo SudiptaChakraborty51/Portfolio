@@ -74,7 +74,7 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem 0rem;
+    padding: 1.5rem 0rem;
     border-bottom-left-radius: 1rem;
 }
 
@@ -192,17 +192,6 @@ hr {
 
 .showcase-list {
     padding: 2rem;
-    border-radius: 1rem;
-    text-align: center;
-    margin: 3rem auto;
-}
-
-.showcase-list h1 {
-    margin: 0.5rem;
-}
-
-.showcase-list p {
-    padding-bottom: 1rem;
 }
 
 .showcase-blog {
