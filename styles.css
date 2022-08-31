@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,700;1,400;1,600&family=Montserrat:wght@400;700&family=Nunito:ital,wght@0,300;0,600;0,700;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 :root {
     --primary-color: #14b8a6;
@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0px;
 }
 
@@ -26,6 +26,14 @@ hr {
     max-width: 600px;
 }
 
+p {
+    font-size: 1.1rem;
+}
+
+.mark {
+    color: var(--primary-color);
+}
+
 .link {
     box-sizing: border-box;
     text-decoration: none;
@@ -38,8 +46,9 @@ hr {
     padding: 0.6rem 1.2rem;
     background-color: var(--primary-color);
     color: white;
-    margin: 1rem auto;
+    margin: 1rem 1rem 1rem 0rem;
     border-radius: 0.5rem;
+    font-size: 1.3rem;
 }
 
 .link-primary:hover {
@@ -54,18 +63,19 @@ hr {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
+    font-size: 1.3rem;
 }
 
 .link-secondary:hover {
     background-color: var(--secondary-hover-color);
 }
 
-.link-blogs {
-    color: var(--primary-color);
-    text-decoration: underline;
+article p {
+    margin-bottom: 2rem;
 }
 
 .button-center {
+    margin-top: 2rem;
     text-align: center;
 }
 
@@ -89,7 +99,7 @@ hr {
 .navigation .nav-brand {
     padding-left: 1rem;
     font-weight: bold;
-    font-size: larger;
+    font-size: 2rem;
 }
 
 .nav-brand a {
@@ -104,11 +114,12 @@ hr {
 
 .navigation .link {
     color: white;
+    font-size: 1.2rem;
 }
 
 .navigation .link-active {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 .header {
@@ -118,7 +129,7 @@ hr {
 }
 
 .header .header-img {
-    max-width: 350px;
+    max-width: 400px;
     display: block;
     margin: auto;
 }
@@ -155,11 +166,12 @@ hr {
 
 .footer .footer-header {
     font-weight: bold;
-    font-size: larger;
+    font-size: 1.3rem;
 }
 
 .footer .link {
     color: white;
+    font-size: 1.1rem;
 }
 
 .footer ul {
