@@ -153,6 +153,13 @@ article p {
     background-color: var(--light-grey);
 }
 
+.other-projects {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
 .footer {
     background-color: var(--primary-color);
     text-align: center;
